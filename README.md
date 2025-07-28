@@ -35,9 +35,9 @@ A responsive web application built with React, Redux Toolkit, and Material UI fo
 
 
 
-![Dashboard Screenshot 1](./assets/dashboard-1.png)
+![Dashboard Screenshot 1](./src/assets/dashboard-1.png.png)
 
-![Dashboard Screenshot 2](./assets/dashboard-2.png)
+![Dashboard Screenshot 2](./src/assets/dashboard-2.png.png)
 
 
 
