@@ -35,9 +35,11 @@ A responsive web application built with React, Redux Toolkit, and Material UI fo
 
 
 
-![Dashboard Screenshot 1](./src/assets/dashboard-1.png.png)
+![Dashboard Screenshot 1](./src/assets/dashboard-1.png.<img width="1920" height="1035" alt="dashboard-1" src="https://github.com/user-attachments/assets/16d98304-1150-4af9-91f3-af7cee584d21" />
+png)
 
-![Dashboard Screenshot 2](./src/assets/dashboard-2.png.png)
+![Dashboard Screenshot 2](./src/assets/dashboard-2.png.png)<img width="1920" height="1048" alt="dashboard 2" src="https://github.com/user-attachments/assets/3b0af525-6cd3-46c9-9071-42e3124d04c4" />
+
 
 
 
