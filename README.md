@@ -49,49 +49,91 @@ src/
 ├── components/
 │ ├── Installations/
 │ │ ├── InstallationForm.jsx
-│ │ ├── InstallationList.jsx
-│ │ 
+│ │ └── InstallationList.jsx
 │ ├── ThemeToggle.jsx
 │ └── Header.jsx
 ├── redux/
-│  └── slices/
-│  | └── installationSlice.js
-|  |___store.js 
-|
+│ ├── slices/
+│ │ └── installationSlice.js
+│ └── store.js
 ├── services/
 │ └── LocalStorageService.js
 ├── styles/
-│ └── InstallationForm.module.scss
-├ └── index.scss
-  └── InstallationCard.module.scss
-  └── theme.scss
+│ ├── InstallationForm.module.scss
+│ ├── InstallationCard.module.scss
+│ ├── index.scss
+│ └── theme.scss
 ├── utils/
-│ └── LocalStorageService.js   
-|   
-|  
-├── App.css 
+│ └── LocalStorageService.js
 ├── App.jsx
+├── App.css
 ├── index.css
 └── main.jsx
 
-## 🚀 Getting Started
+yaml
+Copy
+Edit
 
-### 1. Clone the Repository
+---
 
-```bash
+## 🛠️ Tech Stack
+
+- **React + Vite**
+- **Redux Toolkit**
+- **Material UI**
+- **SCSS Modules**
+- **localStorage for persistence**
+
+---
+
+## 📷 Screenshots
+
+| Form UI (Light Mode) | Dark Mode |
+|----------------------|-----------|
+| ![Form Light](./assets/form-light.png) | ![Form Dark](./assets/form-dark.png) |
+
+> 📌 Add your screenshots to `/assets` folder and update the image paths above.
+
+---
+
+## 🧪 Dummy Data for Testing
+
+Try submitting the following entries:
+
+```json
+{
+  "deviceType": "Oxygen Concentrator",
+  "deviceId": "OX-1001",
+  "facility": "Apollo Hospital, Delhi",
+  "engineer": "John Doe",
+  "status": "Online",
+  "battery": 78,
+  "installationDate": "2024-06-15",
+  "amcStatus": "Active",
+  "contractType": "AMC",
+  "notes": "Installed and tested successfully."
+}
+📦 Running the Project
+Clone the repo:
+
+bash
+Copy
+Edit
 git clone https://github.com/yourusername/device-crm-dashboard.git
 cd device-crm-dashboard
+Install dependencies:
 
-
-Install Dependencies:-
-
+bash
+Copy
+Edit
 npm install
+Start the development server:
 
-
-
-Run the Development Server:-
-
+bash
+Copy
+Edit
 npm run dev
+
 
 Build for Production:-
 
