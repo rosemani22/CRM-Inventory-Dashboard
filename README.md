@@ -69,7 +69,7 @@ Try submitting the following entries:
 📦 Running the Project
 Clone the repo:
 
-git clone https://github.com/yourusername/device-crm-dashboard.git
+git clone https://github.com/rosemani22/CRM-Inventory-Dashboard.git
 cd device-crm-dashboard
 
 Install dependencies:
