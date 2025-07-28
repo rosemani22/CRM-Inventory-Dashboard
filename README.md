@@ -35,63 +35,51 @@ A responsive web application built with React, Redux Toolkit, and Material UI fo
 
 
 
-![Dashboard Screenshot](src/assets/Screenshot%20(861).png.png)
----
+![Dashboard Screenshot 1](./assets/dashboard-1.png)
 
+![Dashboard Screenshot 2](./assets/dashboard-2.png)
 
-![Dashboard Screenshot](src/assets/Screenshot%20(862).png.png)
 
 
 
 ## 📁 Folder Structure
 
-src/
-├── components/
-│ ├── Installations/
-│ │ ├── InstallationForm.jsx
-│ │ ├── InstallationList.jsx
-│ │ 
-│ ├── ThemeToggle.jsx
-│ └── Header.jsx
-├── redux/
-│  └── slices/
-│  | └── installationSlice.js
-|  |___store.js 
-|
-├── services/
-│ └── LocalStorageService.js
-├── styles/
-│ └── InstallationForm.module.scss
-├ └── index.scss
-  └── InstallationCard.module.scss
-  └── theme.scss
-├── utils/
-│ └── LocalStorageService.js   
-|   
-|  
-├── App.css 
-├── App.jsx
-├── index.css
-└── main.jsx
+<pre><code>src/ ├── components/ │ ├── Installations/ │ │ ├── InstallationForm.jsx │ │ └── InstallationList.jsx │ ├── ThemeToggle.jsx │ └── Header.jsx ├── redux/ │ ├── slices/ │ │ └── installationSlice.js │ └── store.js ├── services/ │ └── LocalStorageService.js ├── styles/ │ ├── InstallationForm.module.scss │ ├── index.scss │ ├── InstallationCard.module.scss │ └── theme.scss ├── utils/ │ └── LocalStorageService.js ├── App.css ├── App.jsx ├── index.css └── main.jsx </code></pre>
 
-## 🚀 Getting Started
 
-### 1. Clone the Repository
+## 🧪 Dummy Data for Testing
 
-```bash
+Try submitting the following entries:
+
+
+{
+  "deviceType": "Oxygen Concentrator",
+  "deviceId": "OX-1001",
+  "facility": "Apollo Hospital, Delhi",
+  "engineer": "John Doe",
+  "status": "Online",
+  "battery": 78,
+  "installationDate": "2024-06-15",
+  "amcStatus": "Active",
+  "contractType": "AMC",
+  "notes": "Installed and tested successfully."
+}
+📦 Running the Project
+Clone the repo:
+
 git clone https://github.com/yourusername/device-crm-dashboard.git
 cd device-crm-dashboard
 
+Install dependencies:
 
-Install Dependencies:-
 
 npm install
 
+Start the development server:
 
-
-Run the Development Server:-
 
 npm run dev
+
 
 Build for Production:-
 
