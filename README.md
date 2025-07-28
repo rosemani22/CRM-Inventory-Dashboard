@@ -71,14 +71,17 @@ git clone https://github.com/yourusername/device-crm-dashboard.git
 cd device-crm-dashboard
 
 Install dependencies:
+Install dependencies:
 
 
 npm install
 
 Start the development server:
+Start the development server:
 
 
 npm run dev
+
 
 
 Build for Production:-
