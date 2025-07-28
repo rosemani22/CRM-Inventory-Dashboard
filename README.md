@@ -70,6 +70,7 @@ Try submitting the following entries:
 Clone the repo:
 
 git clone https://github.com/rosemani22/CRM-Inventory-Dashboard.git
+
 cd device-crm-dashboard
 
 Install dependencies:
