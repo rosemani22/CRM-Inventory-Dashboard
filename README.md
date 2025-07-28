@@ -35,46 +35,15 @@ A responsive web application built with React, Redux Toolkit, and Material UI fo
 
 
 
-![Dashboard Screenshot](src/assets/Screenshot%20(861).png.png)
----
+![Dashboard Screenshot 1](./assets/dashboard-1.png)
 
-
-![Dashboard Screenshot](src/assets/Screenshot%20(862).png.png)
+![Dashboard Screenshot 2](./assets/dashboard-2.png)
 
 
 
 ## 📁 Folder Structure
 
-src/
-├── components/
-│ ├── Installations/
-│ │ ├── InstallationForm.jsx
-│ │ └── InstallationList.jsx
-│ ├── ThemeToggle.jsx
-│ └── Header.jsx
-├── redux/
-│ ├── slices/
-│ │ └── installationSlice.js
-│ └── store.js
-├── services/
-│ └── LocalStorageService.js
-├── styles/
-│ ├── InstallationForm.module.scss
-│ ├── InstallationCard.module.scss
-│ ├── index.scss
-│ └── theme.scss
-├── utils/
-│ └── LocalStorageService.js
-├── App.jsx
-├── App.css
-├── index.css
-└── main.jsx
-
-yaml
-Copy
-Edit
-
----
+<pre><code>src/ ├── components/ │ ├── Installations/ │ │ ├── InstallationForm.jsx │ │ └── InstallationList.jsx │ ├── ThemeToggle.jsx │ └── Header.jsx ├── redux/ │ ├── slices/ │ │ └── installationSlice.js │ └── store.js ├── services/ │ └── LocalStorageService.js ├── styles/ │ ├── InstallationForm.module.scss │ ├── index.scss │ ├── InstallationCard.module.scss │ └── theme.scss ├── utils/ │ └── LocalStorageService.js ├── App.css ├── App.jsx ├── index.css └── main.jsx </code></pre>
 
 ## 🛠️ Tech Stack
 
@@ -100,7 +69,7 @@ Edit
 
 Try submitting the following entries:
 
-```json
+
 {
   "deviceType": "Oxygen Concentrator",
   "deviceId": "OX-1001",
@@ -116,22 +85,17 @@ Try submitting the following entries:
 📦 Running the Project
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/yourusername/device-crm-dashboard.git
 cd device-crm-dashboard
+
 Install dependencies:
 
-bash
-Copy
-Edit
+
 npm install
+
 Start the development server:
 
-bash
-Copy
-Edit
+
 npm run dev
 
 
